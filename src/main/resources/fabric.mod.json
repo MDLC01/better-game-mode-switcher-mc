@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "better-game-mode-switcher",
+  "version": "${version}",
+  "name": "Better Game Mode Switcher",
+  "description": "Make F3+N and F3+F4 independent, and enable F3+F4 even without operator permissions.",
+  "contact": {
+    "homepage": "https://modrinth.com/mod/better-game-mode-switcher",
+    "issues": "https://github.com/MDLC01/better-game-mode-switcher-mc/issues",
+    "sources": "https://github.com/MDLC01/better-game-mode-switcher-mc"
+  },
+  "authors": [
+    "MDLC01"
+  ],
+  "license": "Unlicense",
+  "icon": "assets/better-game-mode-switcher/icon.png",
+  "environment": "client",
+  "mixins": [
+    "better-game-mode-switcher.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "1.20.1"
+  }
+}
