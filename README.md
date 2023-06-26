@@ -2,10 +2,10 @@
 
 # Better Game Mode Switcher
 
-![Downloads](https://img.shields.io/modrinth/dt/better-game-mode-switcher)
-![Game versions](https://img.shields.io/modrinth/game-versions/better-game-mode-switcher)
-![GitHub release](https://img.shields.io/github/release/MDLC01/better-game-mode-switcher-mc)
-![License](https://img.shields.io/github/license/MDLC01/better-game-mode-switcher-mc)
+[![Downloads](https://img.shields.io/modrinth/dt/better-game-mode-switcher)](https://modrinth.com/mod/better-game-mode-switcher)
+[![Game versions](https://img.shields.io/modrinth/game-versions/better-game-mode-switcher)](https://modrinth.com/mod/better-game-mode-switcher/versions)
+[![GitHub release](https://img.shields.io/github/release/MDLC01/better-game-mode-switcher-mc)](https://github.com/MDLC01/better-game-mode-switcher-mc/releases/latest)
+[![License](https://img.shields.io/github/license/MDLC01/better-game-mode-switcher-mc)](UNLICENSE)
 
 This is a Fabric mod for Minecraft that makes <kbd>F3</kbd>+<kbd>N</kbd> and the game mode switcher (<kbd>F3</kbd>+<kbd>F4</kbd>) independent. It also enables <kbd>F3</kbd>+<kbd>N</kbd> and the game mode switcher even without operator permissions.
 
