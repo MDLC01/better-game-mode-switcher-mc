@@ -26,3 +26,9 @@ Yes, by using <kbd>F3</kbd>+<kbd>N</kbd> instead of the game mode switcher.
 ### Will it change my workflow?
 
 Only if you commonly use the game mode switcher to switch between Spectator and another game mode. You will have to use <kbd>F3</kbd>+<kbd>N</kbd> for that.
+
+To summarize:
+- If you want to switch between Spectator and another game mode, use <kbd>F3</kbd>+<kbd>N</kbd>.
+- Otherwise, use the game mode switcher (<kbd>F3</kbd>+<kbd>F4</kbd>).
+
+That way, if you are, e.g., making a map, and you need to switch between Creative, Adventure and Spectator, you can switch between the first two using the game mode switcher, and spectate the world using <kbd>F3</kbd>+<kbd>N</kbd>.
