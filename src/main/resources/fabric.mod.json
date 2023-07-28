@@ -3,7 +3,7 @@
   "id": "better-game-mode-switcher",
   "version": "${version}",
   "name": "Better Game Mode Switcher",
-  "description": "Make F3+N and F3+F4 independent, and enable F3+F4 even without operator permissions.",
+  "description": "Makes the game mode switcher never preselect Spectator, and enables it even without operator permissions.",
   "contact": {
     "homepage": "https://modrinth.com/mod/better-game-mode-switcher",
     "issues": "https://github.com/MDLC01/better-game-mode-switcher-mc/issues",
