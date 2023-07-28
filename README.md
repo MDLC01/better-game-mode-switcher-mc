@@ -7,7 +7,7 @@
 [![GitHub release](https://img.shields.io/github/release/MDLC01/better-game-mode-switcher-mc)](https://github.com/MDLC01/better-game-mode-switcher-mc/releases/latest)
 [![License](https://img.shields.io/github/license/MDLC01/better-game-mode-switcher-mc)](UNLICENSE)
 
-This is a Fabric mod for Minecraft that makes <kbd>F3</kbd>+<kbd>N</kbd> and the game mode switcher (<kbd>F3</kbd>+<kbd>F4</kbd>) independent. It also enables <kbd>F3</kbd>+<kbd>N</kbd> and the game mode switcher even without operator permissions.
+This is a Fabric mod for Minecraft that makes the game mode switcher (<kbd>F3</kbd>+<kbd>F4</kbd>) never preselect Spectator. It also enables <kbd>F3</kbd>+<kbd>N</kbd> and the game mode switcher even without operator permissions.
 
 ## Q&A
 
@@ -15,9 +15,9 @@ This is a Fabric mod for Minecraft that makes <kbd>F3</kbd>+<kbd>N</kbd> and the
 
 No. The way the game determines if the game mode switcher should be enabled in vanilla is by checking if you have the right permission level (at least 2). But some servers might give you access to the `gamemode` command without also giving you the corresponding permission level. This causes the game mode switcher and <kbd>F3</kbd>+<kbd>N</kbd> to be disabled. Instead, this mod explicitly checks if the `gamemode` command is available.
 
-### What does it mean exactly for <kbd>F3</kbd>+<kbd>N</kbd> and the game mode switcher to be independent?
+### What does the game mode switcher preselect if my previous game mode was Spectator?
 
-Basically, the game mode switcher will never select Spectator by default. Instead, it selects your last non-Spectator game mode.
+The game mode switcher will never preselect Spectator. Instead, it will preselect your last non-Spectator game mode.
 
 ### Can I still switch to Spectator easily?
 
