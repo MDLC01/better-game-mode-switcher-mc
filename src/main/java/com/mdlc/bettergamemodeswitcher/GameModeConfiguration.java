@@ -1,11 +1,27 @@
 package com.mdlc.bettergamemodeswitcher;
 
+import com.mojang.brigadier.tree.RootCommandNode;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.multiplayer.ClientPacketListener;
+import net.minecraft.client.multiplayer.ClientSuggestionProvider;
 import net.minecraft.client.multiplayer.MultiPlayerGameMode;
 import net.minecraft.world.level.GameType;
 
 
 public final class GameModeConfiguration {
     private GameModeConfiguration() {
+    }
+
+    /**
+     * Tests whether the {@code gamemode} command is available.
+     */
+    public static boolean hasPermission(Minecraft minecraft) {
+        ClientPacketListener connection = minecraft.getConnection();
+        if (connection == null) {
+            return true;
+        }
+        RootCommandNode<ClientSuggestionProvider> root = connection.getCommands().getRoot();
+        return root.getChild("gamemode") != null;
     }
 
     /**
